@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Form</title>
+</head>
+<div>
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Your Address</legend>
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="First Name" > 
+        </div>
+        <div>
+            <p><label for="lastName">Last Name</label>
+                <input type="text" id="Last Name" >
+            </p>
+            
+        </div>
+        <div>
+            <p><label for="street">Street</label>
+                <input type="text" id="Street" >
+            </p>
+        </div>
+        <div><p><label for="city">City</label>
+            <input type="text" id="City" >
+        </p></div>
+            
+            </fieldset> <br>
+       
+     <!-- TEXTAREA -->  
+     <fieldset>
+     <legend>Additional Details</legend>
+   <div>
+        <label for="biography">Biography</label>  
+        <textarea name="biography" maxlength="150" required></textarea>      
+        </div>
+        <p><label for="myfile">Image</label>
+            <input type="file" id="myfile" name="myfile"></p>
+        
+            <label for="age">Age Group</label>
+  <select id="age" name="age">
+    <option value="child">0-9 Years</option>
+    <option value="tween and teen">10-19</option>
+    <option value="young adult">20-29</option>
+  </select>
+</fieldset></div><br>
+<!--TEXT AREA-->
+<fieldset>
+    <legend>Interests</legend>  
+
+<p><label for="hobbies">Hobbies</label>
+    <select name="hobbies" size="4" multiple>
+      <option value="playing soccer">Playing Soccer</option>
+      <option value="dancing">Dancing</option>
+      <option value="gardening">Gardening</option>
+      <option value="watching movies">Watching Movies</option>
+    </select></p> 
+   
+    
+   <div><label for="cars">Favorite Car</label>
+    <select id="cars" name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+       </div>
+    <div><label for="public transport">Favorite Public Transport</label>
+        <select name="public transport" size="4">
+            <option value="ground">Ground</option>
+            <option value="train">Train</option>
+            <option value="ground">Bus</option>
+            <option value="ground">Water</option>
+        </select>
+    </div>
+</fieldset>
+    
+        </form>
+     
+
+ 
+</body>
+</html>
